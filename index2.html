@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!-- made by @techoverflows-->
+<head lang="en">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=devide-width, initial-scale=0.1" />
+    <title>sorry-baby :)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffe5e5;
+        }
+
+        .image-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .text-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .iyaa {
+            background-color: #f017b9;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .tricky {
+            position: absolute;
+            left: auto;
+            right: auto;
+            text-decoration: none;
+            color: #111;
+            background: #fff;
+            padding: 10px 25px;
+            border-radius: 8px;
+            box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-center">
+        <img src="https://c.tenor.com/VxixtsQjIRAAAAAj/chibi-cat-mochi-cat.gif" alt="image" Id="image-alt" />
+    </div>
+    <div class="text-center">
+        <h1 id="text"><br>Sorry baby tumhe pareshaan kiya, <br>Please gussa mat karo......!<br>I'll never multithread on you💔<br>I'm async & I would wait for you💖......</h1>
+    </div>
+    <div class="text-center">
+        <button type="button" class="iyaa">It's Okay ❤...</button>
+    </div>
+    <div class="tricky">
+        <button type="button" class="gamau">NO</button>
+    </div>
+    <script>
+        let iyaa = document.querySelector(".iyaa");
+        let Gamau = document.querySelector(".tricky");
+        iyaa.addEventListener("click", function () {
+            document.getElementById("image-alt").src = "https://c.tenor.com/lqtU1G4aaqIAAAAj/yom-dance.gif";
+            document.getElementById("text").innerHTML = "Achi Bachiii🙆 &hearts; &hearts; &hearts; &hearts;"
+        });
+        Gamau.addEventListener("mouseover", function () {
+            Gamau.style.left = Math.random() * 90 + "%";
+            Gamau.style.top = Math.random() * 90 + "%";
+        });
+    </script>
+    </bodyl>
+
+</html>
